@@ -67,4 +67,3 @@ const Blogs = ({ params }) => {
 }
 
 export default Blogs
-
