@@ -1,19 +1,11 @@
-import React, { useEffect, useState } from 'react'
+"use client"
+import React from 'react'
+import Blogs from '@/components/blogs/Blogs';
 
 const page = async ({ params }) => {
-    const resolvedParams = await params;
-    const [data, setData] = useState(null);
-
-    const fetchBlogData = async () => {
-
-    }
-
-    useEffect(() => {},[])
-
+  const resolvedParams = await params;
     return (
-        <div>
-            {resolvedParams.id}
-        </div>
+        <Blogs params={resolvedParams}/>
     )
 }
 
