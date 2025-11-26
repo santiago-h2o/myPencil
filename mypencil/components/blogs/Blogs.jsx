@@ -67,3 +67,6 @@ const Blogs = ({ params }) => {
 }
 
 export default Blogs
+
+// PHE9lkG1vLsy7IUN
+// maxcuello123_db_user
