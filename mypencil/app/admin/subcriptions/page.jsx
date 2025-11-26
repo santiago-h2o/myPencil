@@ -1,9 +1,9 @@
-import AdminBlogList from '@/components/admin/AdminBlogList'
+import Subcriptions from '@/components/admin/Subcriptions'
 import React from 'react'
 
 const page = () => {
     return (
-        <AdminBlogList />
+        <Subcriptions />
     )
 }
 
